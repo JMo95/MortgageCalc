@@ -1,0 +1,20 @@
+* {
+    border-radius: 0 !important;
+    margin: auto;
+}
+
+.card {
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 62.5%; /* Added */
+  }
+
+.card1 {
+    background-color: #f1f1f1;
+}
+
+.titleweight {
+    font-weight: 600;
+}
+
