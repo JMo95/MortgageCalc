@@ -12,6 +12,7 @@
 <body>
     <!--  FILE IS PHP SO IT CAN BE HOSTED ON HEROKU  -->
 
+ 
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0">
         <div class="container-fluid">
           <a class="navbar-brand mx-auto" href="#">
@@ -22,8 +23,8 @@
           </div>
         </div>  
     </nav>
-
-
+   
+<div class="container">
     <div class="row">
 
         <!--
@@ -32,13 +33,15 @@
         </div>
     -->
 
-    </div>
     
-    <div class="card-group" style="padding-left: 25%; padding-right: 25%; padding-top: 4%;">
+
+    <div class="col d-flex justify-content-center">
+
+    <div class="card-group" style="padding-left: 25%; padding-right: 25%; padding-top: 4% ">
         
         <div class="card card1" style="min-width: 15rem;">
         <div class="container">
-        <div class="card-body" style="padding-left: 15%;">      
+        <div class="card-body" style="">      
         <div class="input-group">
             <div class="col-xs-3">
             <label class="ex1">Home Price</label>
@@ -66,9 +69,11 @@
           
         </div>
     </div>
+
+
     
         <div class="card" style="min-width: 15rem;">
-            <div class="card-body" style="padding-left: 30%; padding-top: 25%;">
+            <div class="card-body" style="padding-left: 30%; padding-top: 25%; margin: auto;">
          Monthly Payment
          <h1 id="monthlyResult"></h1>
          <hr width=64%>
@@ -80,8 +85,10 @@
          </div>
          </div>
        
-     
+        </div>
 
+    </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>
